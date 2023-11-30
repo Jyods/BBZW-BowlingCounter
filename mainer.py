@@ -14,6 +14,6 @@ for ri in range(12):
                 print("Invalid input! Try again.")
         pins.append(num)
     
-    print(pins)
-    print(f"Score: {Counter.bowling_score(pins)}")
+        print(pins)
+        print(f"Score: {Counter.bowling_score(pins)}")
     
