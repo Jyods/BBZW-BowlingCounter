@@ -1,6 +1,6 @@
 # Testprotokoll für Bowling-Score-Berechnung
 
-## Testdurchführung
+## Testdurchführung 08.12.2023, 19:56
 
 ### Testfall 1: Normale Punkteberechnung (TC001)
 - **Ausgangslage:** Liste von Wurfwerten [3, 5, 2, 4, 1, 3, 8, 1, 7, 2, 4, 5, 6, 2, 3, 1, 4, 5, 2, 3]
