@@ -1,6 +1,6 @@
 def bowling_score(throws:list[int], max_pins=10):
     """
-    Calculate a bowling score
+    Calculate a bowling score.
     :param throws: Array of how many pins were knocked over.
     :param max_pins: The amount of pins to be knocked over.
     """

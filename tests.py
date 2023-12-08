@@ -26,12 +26,12 @@ class TestBowlingScore(unittest.TestCase):
 
     def test_valid_max_throw(self):
         throws = [1, 2, 10, 9, 10, 10, 20, 0, 19, 1]
-        self.assertEqual(Counter.bowling_score(throws, max_throw=20), 121)
+        self.assertEqual(Counter.bowling_score(throws, max_pins=20), 121)
 
     def test_invalid_max_throw(self):
         throws = [1, 2, 5, 9, 1, 2, 5, 0, 2, 1]
         with self.assertRaises(ValueError):
-            Counter.bowling_score(throws, max_throw=5)
+            Counter.bowling_score(throws, max_pins=5)
 
 if __name__ == '__main__':
     unittest.main()
